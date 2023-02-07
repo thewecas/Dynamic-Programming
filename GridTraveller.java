@@ -12,9 +12,9 @@ public class GridTraveller {
     }
 
     public static Long gridTraveler(int m, int n) {
-        if (m == 1 && n == 1)       return (long)1;                     //base case
-        if (m == 0 || n == 0)       return (long)0;                     //base case
-        String k=m<n? Integer.toString(m)+","+Integer.toString(n) : Integer.toString(n) + "," + Integer.toString(m);    //converting to the string of the form "m,n",  gridTravel(m,n)=gridTravel(n,m)
+        if (m == 1 && n == 1)       return (long)1;
+        if (m == 0 || n == 0)       return (long)0;
+        String k=m<n? Integer.toString(m)+","+Integer.toString(n) : Integer.toString(n) + "," + Integer.toString(m);
         if(memo.containsKey(k))   return memo.get(k);
         memo.put(k,gridTraveler(m - 1, n) + gridTraveler(m, n - 1));
         return memo.get(k);
