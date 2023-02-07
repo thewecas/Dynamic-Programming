@@ -4,7 +4,7 @@ import java.util.*;
 public class CanSum {
     static Map<Integer, Boolean> memo=new HashMap<>();
     public static void main(String[] args) {
-        // Important Note : Run the below statements one by
+        // Important Note : Run the below statements one by one
         // System.out.println(canSum(7, new int[] { 2, 3 }));
         // System.out.println(canSum(7, new int[] { 5, 3, 4, 7 }));
         // System.out.println(canSum(7, new int[] { 2, 4}));
