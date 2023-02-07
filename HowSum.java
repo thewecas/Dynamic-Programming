@@ -4,7 +4,7 @@ import java.util.*;
 public class HowSum {
     static Map<Integer, ArrayList<Integer>> memo= new HashMap<>();
     public static void main(String[] args) {
-        //Important Note : Run the below statements one by
+        //Important Note : Run the below statements one by one
         // System.out.println(howSum(7, new int[] { 2, 3 }));
         // System.out.println(howSum(7, new int[] { 5, 3, 4, 7 }));
         // System.out.println(howSum(7, new int[] { 2, 4}));
