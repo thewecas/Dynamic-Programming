@@ -3,7 +3,10 @@ import java.util.*;
 public class Fibonacci{
     static Map<Integer,Long> memo = new HashMap<>();        //Data structure to store fibonacci value when its calculated for the first time
     public static void main(String[] args) {
-       System.out.println(fib(65));
+       System.out.println(fib(6));
+       System.out.println(fib(7));
+       System.out.println(fib(8));
+       System.out.println(fib(50));
     }
 
     public static Long fib(int n){
